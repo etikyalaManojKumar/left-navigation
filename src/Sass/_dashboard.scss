@@ -1,0 +1,97 @@
+
+.section_div {
+    //display: grid;
+    margin: 30px 30px 30px 30px;
+    width: 95vw;
+    height: 500px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.6);
+}
+.pointof_contact{
+    margin: 30px 30px 30px 30px;
+    width: 95vw;
+    height: 200px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.6);
+}
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    //background-color: #2196F3;
+    //padding: 10px;
+    //height: 200px;
+    grid-gap: 10px
+}
+
+.grid_item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 310px;
+    height: 200px;
+    //padding: 30px 20px 30px 20px;
+    //font-size: 30px;
+    text-align: center;
+    border: none;
+    background-color: #ccfdff
+    
+  }
+.section_head{
+    width: auto;
+    height: 70px;
+    border-bottom: 1px solid #95a5a6;
+    margin-bottom: 10px;
+    background-color: #1abc9c;
+}  
+.section_head span{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 0px 0px 20px;
+}
+.pointof_contact span{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 0px 0px 20px;
+}
+.section_head div{
+    float: right;
+    margin: 10px 20px 0px 0px
+}
+.saveBtn{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 2px 0px 0px 10px;
+    padding: 4px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    background-color: #0984e3;
+}
+.delete{
+    margin-top: 110px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #e74c3c;
+    cursor: pointer;
+}
+.para{ 
+    font-weight: bold;
+    margin-left: 20px;
+}
+.para h3{
+    display: inline;
+}
+
+.send_mail{
+    background-color: #0984e3;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px 0px 20px;
+    cursor: pointer;
+}

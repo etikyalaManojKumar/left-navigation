@@ -1,0 +1,43 @@
+.email_form{
+    position: absolute;
+    left: 30%;
+}
+.email_label{
+    width: 40px;
+    font-weight: bold;
+}
+.textarea{
+    display: block;
+}
+
+.from_div{
+    margin: 15px 0px 15px 0px;
+}
+.subject_div{
+    margin-bottom: 15px;
+}
+.input{
+    margin-left: 36px;
+    width: 400px;
+    height: 30px
+}
+.select_input{
+    margin-left: 55px;
+    width: 400px;
+    height: 30px;
+}
+
+.sub_text{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 26px;
+    width: 400px;
+}
+.ok_btn{
+    margin-top: 15px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: #2e86de;
+}
